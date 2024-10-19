@@ -1,5 +1,5 @@
 import HeroImg from '../assests/hero.png';
-import { AiOutlineX,AiOutlineFacebook,AiOutlineLinkedin, AiOutlineWhatsApp,AiOutlineInstagram} from "react-icons/ai";
+import {AiOutlineFacebook,AiOutlineLinkedin, AiOutlineWhatsApp,AiOutlineInstagram} from "react-icons/ai";
 export default function Hero() {
     const config = {
         subtitle: 'Iam Web Developer',
@@ -22,6 +22,6 @@ export default function Hero() {
             <a href= {config.social.instagram}className=' hover:text-white'><AiOutlineInstagram size={40}/></a>
         </div>
         </div>
-        <img className='md:w-1/4'src={HeroImg}/>
+        <img className='md:w-1/4'src={HeroImg} alt='hii'/>
     </section>
 }
